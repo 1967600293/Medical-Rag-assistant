@@ -1,0 +1,7 @@
+[theme]
+base = "dark"                         # 切换为深色模式基础
+primaryColor = "#5A8FA8"              # 柔和蓝灰主色
+backgroundColor = "#1E2A36"           # 深灰蓝背景（不纯黑，带一点蓝）
+secondaryBackgroundColor = "#2A3A4A"  # 卡片/侧栏稍亮
+textColor = "#E8EDF2"                 # 柔白灰文字，不刺眼
+font = "sans serif"

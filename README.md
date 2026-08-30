@@ -205,10 +205,10 @@ log_config.py   ──▶  (标准库 logging，无第三方)
 | `md5_path` | `"md5.text"` | 已处理文件 MD5 记录文件 |
 | `collection_name` | `"rag"` | Chroma 集合名称 |
 | `persist_directory` | `"./chroma_db"` | 向量数据库持久化目录 |
-| `chunk_size` | `1000` | 文本分块大小 |
+| `chunk_size` | `512` | 文本分块大小 |
 | `chunk_overlap` | `100` | 分块重叠长度 |
 | `separators` | `["\n\n", "\n", ".", "!", "?", "。", "！", "？", " ", ""]` | 文本分割分隔符 |
-| `max_spliter_char_number` | `1000` | 触发文本分割的字符阈值 |
+| `max_spliter_char_number` | `512` | 触发文本分割的字符阈值 |
 | `similarity_threshold` | `3` | 检索返回文档数量（Top-K） |
 | `embedding_model_name` | `"text-embedding-v4"` | 嵌入模型 |
 | `chat_model_name` | `"qwen3-max"` | 对话大模型 |
